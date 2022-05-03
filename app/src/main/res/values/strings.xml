@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Restaurantedb</string>
+    <string name="nueva_Franquicia">nueva Franquicia</string>
+    <string name="borrar_Franquicia">borrar Franquicia</string>
+    <string name="button">Button</string>
+    <string name="nueva_franquicia">nueva franquicia</string>
+    <string name="borrar_franquicia">Borrar Franquicia</string>
+    <string name="actualizar_franquicia">Actualizar franquicia</string>
+    <string name="mostrar_restaurante">mostrar restaurante</string>
+
+    <string name="item_franquicia">item_franquicia</string>
+    <string name="listarestaraurantes">lista_restaurantes</string>
+    <string name="nuevo_restaurante">nuevo_restaurante</string>
+</resources>

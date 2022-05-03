@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu"
+    tools:context=".utilidades.MainActivity">
+
+
+    <Button
+        android:id="@+id/bt_borrarFranquicia"
+        android:layout_width="194dp"
+        android:layout_height="47dp"
+        android:background="#718377"
+        android:backgroundTintMode="multiply"
+        android:onClick="borrarFranquicia"
+        android:text="@string/borrar_franquicia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.374"
+        tools:ignore="TextContrastCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/bt_mostrarRestaurante"
+        android:layout_width="145dp"
+        android:layout_height="60dp"
+        android:background="#718377"
+        android:backgroundTintMode="multiply"
+        android:onClick="mostrarRestaurante"
+        android:text="@string/mostrar_restaurante"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.672"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/bt_nuevaFranquicia"
+        android:layout_width="196dp"
+        android:layout_height="47dp"
+        android:background="#718377"
+        android:backgroundTintMode="multiply"
+        android:onClick="nuevaFranquicia"
+        android:text="@string/nueva_franquicia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.292"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/bt_actualizarFranquicia"
+        android:layout_width="195dp"
+        android:layout_height="57dp"
+        android:background="#718377"
+        android:backgroundTintMode="multiply"
+        android:onClick="actualizarFranquicia"
+        android:text="@string/actualizar_franquicia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/bt_nuevoRestaurante"
+        android:layout_width="197dp"
+        android:layout_height="57dp"
+        android:background="#718377"
+        android:backgroundTintMode="multiply"
+        android:text="nuevo Restaurante"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/bt_mostrarRestaurante"
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toStartOf="@+id/bt_mostrarRestaurante"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.56"
+        tools:ignore="OnClick,TextContrastCheck,TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

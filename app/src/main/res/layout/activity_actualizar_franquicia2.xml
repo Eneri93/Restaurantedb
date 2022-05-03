@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/comidichi">
+
+    <TextView
+        android:id="@+id/txt_actuali2"
+        android:layout_width="265dp"
+        android:layout_height="79dp"
+        android:fontFamily="cursive"
+        android:text="@string/actualizar_franquicia"
+        android:textColor="#650909"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.237" />
+
+    <TextView
+        android:id="@+id/txt_idF"
+        android:layout_width="149dp"
+        android:layout_height="48dp"
+        android:text="cod Franquicia"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <TextView
+        android:id="@+id/txt_nombreF"
+        android:layout_width="153dp"
+        android:layout_height="47dp"
+        android:text="Nombre"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txt_idF"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_idF"
+        app:layout_constraintTop_toBottomOf="@+id/txt_idF"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <EditText
+        android:id="@+id/edt_actualizar_codF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="cod Franquicia"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toEndOf="@+id/txt_idF"
+        app:layout_constraintTop_toBottomOf="@+id/txt_actuali2"
+        app:layout_constraintVertical_bias="0.168" />
+
+    <EditText
+        android:id="@+id/edt_actualizar_nombreF"
+        android:layout_width="209dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="12dp"
+        android:ems="10"
+        android:hint="Nombre Franquicia"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_actualizar_codF"
+        app:layout_constraintVertical_bias="0.166" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="168dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="116dp"
+        android:text="actualizar"
+        android:onClick="actualizarFranquicia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

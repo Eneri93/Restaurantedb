@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/comidichi">
+
+    <ImageView
+        android:id="@+id/img_logorest"
+        android:layout_width="197dp"
+        android:layout_height="177dp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_detalle_nombreR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.903"
+        app:srcCompat="@drawable/restaurante" />
+
+    <TextView
+        android:id="@+id/txt_detalle_nombreR"
+        android:layout_width="238dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="312dp"
+        android:text="Nombre Restaurante"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/img_logorest"
+        app:layout_constraintHorizontal_bias="0.365"
+        app:layout_constraintStart_toStartOf="@+id/img_logorest" />
+
+    <TextView
+        android:id="@+id/txt_detalle_facturacion"
+        android:layout_width="238dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="240dp"
+        android:text="Facturacion Restaurante"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/img_logorest"
+        app:layout_constraintHorizontal_bias="0.341"
+        app:layout_constraintStart_toStartOf="@+id/img_logorest" />
+
+    <TextView
+        android:id="@+id/txt_detalle_franquicia"
+        android:layout_width="238dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="172dp"
+        android:text="Franquicia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/img_logorest"
+        app:layout_constraintHorizontal_bias="0.365"
+        app:layout_constraintStart_toStartOf="@+id/img_logorest" />
+</androidx.constraintlayout.widget.ConstraintLayout>
