@@ -11,6 +11,7 @@ public class Franquicia implements Serializable {
     public Franquicia(int idFranquicia, String nombre) {
         this.idFranquicia = idFranquicia;
         this.nombre = nombre;
+        //----------------------------------------
     }
 
     public Franquicia(String nFra) {
